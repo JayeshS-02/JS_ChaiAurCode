@@ -4,15 +4,15 @@
 
 alert(3+3); //WE are using Nodejs , not browser
 
-const a = null;
+let a = null;
 typeof(a); // returns "object"
 
-const a;
-typeof(a); // returns "Undefined"
+let b;
+typeof(b); // returns "Undefined"
 
-const a = {
+let c = {
     name: 'John',
     age: 30,
     isMarried: false
 };
-typeof(a); // returns "object"
+typeof(c); // returns "object"
